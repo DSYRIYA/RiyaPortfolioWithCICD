@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>10th Education – Riya Hulule</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        /* Show/Hide box */
+        .result-box {
+            display: none;
+            margin-top: 25px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+            text-align: left;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body class="project-page">
+
+<header class="navbar">
+    <h2 class="logo">10th Education</h2>
+    <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<section class="detail-section">
+    <h1>10th Standard (SSC)</h1>
+
+    <p><strong>School:</strong> St. Columba Girls High School</p>
+    <p><strong>Address:</strong> Gamdevi, Mumbai – 400008</p>
+    <p><strong>Percentage:</strong> 86%</p>
+
+    <h3>Extracurricular Activities</h3>
+    <ul>
+        <li>Represented school in Inter-School Science Exhibition</li>
+        <li>Won 1st Prize in District-Level Maths Quiz</li>
+        <li>Participated in State-Level Drawing Competition</li>
+        <li>Active member of School Cultural Committee</li>
+        <li>Volunteered for Annual Day & Independence Day events</li>
+        <li>School prefect for academic discipline committee</li>
+        <li>Participated in Inter-house Debate & Elocution competitions</li>
+        <li>Member of School Sports Team – Kho-Kho & Throwball</li>
+    </ul>
+
+    <!-- Button to show result -->
+    <button class="button" onclick="showResult()">View 10th Result</button>
+
+    <!-- Hidden Result Box -->
+    <div id="resultBox" class="result-box">
+        <h3>Your SSC Result</h3>
+        <p><strong>Name:</strong> Riya Hulule</p>
+        <p><strong>School:</strong> St. Columba Girls High School, Gamdevi</p>
+        <p><strong>Board:</strong> Maharashtra State Board</p>
+        <p><strong>Percentage:</strong> 86%</p>
+        <p><strong>Status:</strong> Passed with Distinction</p>
+    </div>
+</section>
+
+<footer class="site-footer">
+    © 2025 • Riya Hulule
+</footer>
+
+<script>
+    function showResult() {
+        document.getElementById("resultBox").style.display = "block";
+    }
+</script>
+
+</body>
+</html>

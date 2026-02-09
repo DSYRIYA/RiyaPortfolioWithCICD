@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riya Hulule – Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <h2 class="logo">Riya Hulule</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#internships">Internships</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="Riya_Resume.pdf" download class="resume-btn">Resume</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <img src="images/profile.jpeg" class="profile-img" />
+    <h1>Java Backend Developer</h1>
+    <p>I build scalable REST APIs, microservices, and modern backend systems.</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section center">
+    <h2>About Me</h2>
+    <p class="text">
+        I am a Java Backend Developer experienced in Spring Boot, Microservices,
+        SQL, MongoDB, AWS, and modern backend engineering.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section center">
+    <h2>Skills</h2>
+    <div class="cards">
+        <div class="card">Java, Spring Boot</div>
+        <div class="card">REST API, Microservices</div>
+        <div class="card">MySQL, MongoDB</div>
+        <div class="card">AWS, Docker</div>
+        <div class="card">React, JS</div>
+        <div class="card">Git, Maven</div>
+    </div>
+    <div class="skill-logos">
+        <div class="logo-box"><img src="images/java.png" alt="Java"></div>
+        <div class="logo-box"><img src="images/springboot.png" alt="Spring Boot"></div>
+        <div class="logo-box"><img src="images/microservice.png" alt="Microservices"></div>
+        <div class="logo-box"><img src="images/sql.png" alt="MySQL"></div>
+        <div class="logo-box"><img src="images/aws.png" alt="AWS"></div>
+        <div class="logo-box"><img src="images/docker.png" alt="Docker"></div>
+        <div class="logo-box"><img src="images/git.png" alt="Git"></div>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section center">
+    <h2>Education</h2>
+
+    <div class="project-list">
+
+        <a href="education/edu_10.html" class="project-card">
+            <h3>10th (SSC)</h3>
+            <p>Maharashtra State Board</p>
+        </a>
+
+        <a href="education/edu_12.html" class="project-card">
+            <h3>12th (HSC)</h3>
+            <p>Science Stream</p>
+        </a>
+
+        <a href="education/edu_btech.html" class="project-card">
+            <h3>B.Tech – Electronics & Telecommunication Engineering</h3>
+            <p>MIT Academy Of Engineering, Pune</p>
+        </a>
+
+    </div>
+</section>
+
+<!-- INTERNSHIPS -->
+<section id="internships" class="section center">
+    <h2>Internships</h2>
+
+    <div class="project-list">
+
+        <a href="projects/intern_enzigma.html" class="project-card">
+            <h3>Enzigma Software Pvt. Ltd.</h3>
+            <p>Software Trainee • Jan 2025 – Aug 2025</p>
+        </a>
+
+        <a href="projects/intern_fourise.html" class="project-card">
+            <h3>Fourise Solutions</h3>
+            <p>Full Stack Intern • Jul 2023 – Dec 2023</p>
+        </a>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section center">
+    <h2>Projects</h2>
+
+    <div class="project-list">
+        <a href="projects/user_ms.html" class="project-card">
+            <h3>User Management Service</h3>
+            <p>Spring Boot + JWT + MySQL</p>
+        </a>
+
+        <a href="projects/hotel_ms.html" class="project-card">
+            <h3>Hotel Rating Microservices</h3>
+            <p>Microservices + Gateway + MongoDB</p>
+        </a>
+        <a href="projects/todo_app.html" class="project-card">
+            <h3>React To-Do List App</h3>
+            <p>React + CRUD + Search + localStorage</p>
+        </a>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section center">
+    <h2>Contact</h2>
+    <p class="text">Email: riya.hulule@mitaoe.ac.in</p>
+    <p class="text">Phone: +91 8356846225</p>
+
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/riya-hulule-486904262" target="_blank" class="button">
+            LinkedIn
+        </a>
+
+        <a href="https://github.com/RiyaHulule?tab=repositories" target="_blank" class="button">
+            GitHub
+        </a>
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+    <h2>Contact Me</h2>
+
+    <form action="https://formsubmit.co/riya.hulule@mitaoe.ac.in" method="POST" class="contact-form">
+
+        <!-- Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Redirect to Thank-You page -->
+        <input type="hidden" name="_next" value="thankyou.html">
+
+        <!-- Send email in table format -->
+        <input type="hidden" name="_template" value="table">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="button">Submit</button>
+    </form>
+
+    <p>© 2025 • Riya Hulule • Professional Portfolio</p>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>React To-Do List App</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="project-page">
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <h2 class="logo">Riya Projects</h2>
+    <nav>
+        <a href="../index.html">Home</a>
+    </nav>
+</header>
+
+<!-- DETAILS SECTION -->
+<section class="detail-section center">
+    <h1>React To-Do List App</h1>
+
+    <p class="text">
+        A simple and modern To-Do List application built using React.
+        It allows users to create, read, update, and delete tasks.
+        Includes search functionality and stores tasks using <b>localStorage</b>.
+        Routing is implemented using <b>React Router</b> for page navigation.
+    </p>
+
+    <h3>Features</h3>
+    <ul class="text" style="list-style:none; padding:0;">
+        <li>✔ Add, Edit, Delete tasks</li>
+        <li>✔ Search tasks in real-time</li>
+        <li>✔ localStorage persistence (data saved even after refresh)</li>
+        <li>✔ React Router for multi-page navigation</li>
+        <li>✔ Clean UI with responsive design</li>
+    </ul>
+
+    <a class="button" href="https://github.com/RiyaHulule/Enzigma_task" target="_blank">
+        GitHub Repository
+    </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <h2>Contact Me</h2>
+
+    <form action="https://formsubmit.co/riya.hulule@mitaoe.ac.in" method="POST" class="contact-form">
+
+        <!-- Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Redirect to Thank-You page -->
+        <input type="hidden" name="_next" value="thankyou.html">
+
+        <!-- Send email in table format -->
+        <input type="hidden" name="_template" value="table">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="button">Submit</button>
+    </form>
+
+    <p>© 2025 • Riya Hulule • Professional Portfolio</p>
+</footer>
+
+
+</body>
+</html>
